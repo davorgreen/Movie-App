@@ -11,6 +11,7 @@ let form = document.querySelector("form");
 let input = document.querySelector(".search");
 
 getMovies(apiURL);
+console.log(apiURL)
 
 async function getMovies(url) {
   const res = await fetch(url);
